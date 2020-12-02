@@ -60,6 +60,7 @@ def main(hostname, token, api, interface, dely, ipv4, ipv6):
                     oldAddressIpv4 = parameters['ipv4']
                 if ipv6:
                     oldAddressIpv6 = parameters['ipv6']
+                print('update success!')
                 time.sleep(60 - dely)
             else:
                 print('update fail!!!')
