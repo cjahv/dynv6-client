@@ -1,5 +1,5 @@
 FROM python:3
-MAINTAINER Daniel Starzmann <daniel@starze.de>
+MAINTAINER jahv <me@cjahv.com>
 WORKDIR /usr/src/app
 
 COPY requirements.txt ./
